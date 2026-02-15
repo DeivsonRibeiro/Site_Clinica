@@ -64,7 +64,11 @@
   width: 100%;
   text-align: left;
 }
-.atividade button {
+.atividade button,
+.atividade .btn-atividade {
+  display: block;
+  text-align: center;
+  text-decoration: none;
   padding: 18px 22px;
   background-color: #53d89c9f;
   color: #2b8628ea;
