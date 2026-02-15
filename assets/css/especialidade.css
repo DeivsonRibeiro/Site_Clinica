@@ -1,0 +1,66 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Seção */
+.especialidades {
+  max-width: 16000px; /* Aumentando a largura máxima da seção */
+  margin: 5px auto; /* Reduzindo a margem superior/inferior */
+  padding: 20px 20px;
+  text-align: center;
+}
+
+.especialidades h2 {
+  font-size: 32px;
+  margin-bottom: 10px; /* Reduzindo a margem inferior */
+  color: #333;
+}
+
+/* Lista de cards */
+.especialidades-lista{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: nowrap;
+}
+
+/* Card */
+.especialidade {
+  flex: 0 0 500px;
+  width: 500px; /* Aumentando a largura do card */
+  background: #6aeebb33;
+  border: 1px solid #1adb34;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+/* Hover */
+.especialidade:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* Imagem */
+.especialidade img {
+  width: 100%; /* Ajustando para caber no card */
+  height: 400px;
+  object-fit: cover;
+  padding: 10px;
+}
+
+/* Texto */
+.especialidade span {
+  display: block;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: 600;
+  color: #444;
+}

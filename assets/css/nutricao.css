@@ -1,0 +1,32 @@
+.container-nutricao{
+      background-color: #99999921;
+  padding: 50px; 
+  display: flex;
+  justify-content: center;
+}
+.nutricao{
+  padding: 120px 100px;
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 1100px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  text-align: center;
+}
+    .nutricao h2{
+        color: #7b7b7b;
+        font-size: 1.875rem;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }   
+    .nutricao p{
+        color: #7b7b7b;
+        font-size: 1.25rem;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }   
+    .nutricao{
+      text-align: left;
+   
+    }       

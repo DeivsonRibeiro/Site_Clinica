@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Garante que padding e border não aumentem o tamanho do elemento */
+  -webkit-font-smoothing: antialiased; /* Melhora a renderização da fonte em Mac/iOS */
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 3. BASE */
+html {
+  scroll-behavior: smooth; /* Deixa o deslize da página suave */
+}
+
+body {
+  line-height: 1.6; /* Melhora a legibilidade do texto */
+}
+
+ul,
+ol {
+  list-style: none; /* Remove as bolinhas das listas */
+}
+
+a {
+  text-decoration: none; /* Remove o sublinhado dos links */
+  color: inherit;
+}
+.contato-whatsapp {
+  text-align: center;
+  padding: 40px;
+  font-size: 2rem;
+  color: #7b7b7b;
+}
+.fa-brands {
+  color: #25d366;
+}
+
+.contato-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(26px, 1fr));
+  gap: 40px;
+  padding: 40px;
+  font-size: 1.2rem;
+  min-height: 400px;
+  background-color: lab(98.27% 0.01 -0.01);
+}
+.contato-box {
+  border: 1px solid #bdf3d5;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: left; /* Centers the icon and text */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.contato-box > i {
+  color: #25d366; /* Fallback color */
+  font-size: 2rem;
+  padding: 20px;
+  background: #c9c7c7c0;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  width: 80px; /* Fixed width for perfect circle */
+  height: 80px; /* Fixed height for perfect circle */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contato-box h2 {
+  text-align: center;
+  padding-bottom: 10px;
+  color: #7b7b7b;
+  font-weight: 900;
+}
+.contato-box p {
+  text-align: left;
+  color: #7b7b7b;
+  font-weight: 600;
+}
+
+/* Ensure inner icons behave normally */
+.contato-box p i {
+  font-size: 1rem;
+  padding: 0;
+  background: none;
+  margin-right: 5px;
+  color: inherit; /* Inherit color from text or define one */
+}
+
+.contato-mapa h2 {
+  text-align: center;
+  padding-bottom: 10px;
+  color: #7b7b7b;
+  font-weight: 900;
+  font-size: 2rem;
+}
+.contato-mapa iframe {
+  width: 100%;
+  height: 400px;
+  border: 1px solid #bcdac9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contato-formulario h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  padding-top: 40px;
+  color: #7b7b7b;
+  font-weight: 900;
+}
+
+.contato-formulario p {
+  text-align: center;
+  font-size: 1.2rem;
+  padding-bottom: 10px;
+  color: #7b7b7b;
+  font-weight: 600;
+}
+.contato-formulario form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 40px;
+  font-size: 1.2rem;
+  min-height: 400px;
+  background-color: lab(98.27% 0.01 -0.01);
+}
+
+.campo-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 50%;
+}
+
+.campo-form textarea {
+  height: 200px;
+}
+.campo-form input,
+.campo-form textarea {
+  width: 100%;
+  padding: 15px; /* Comfortable padding */
+  border: 1px solid #bcdac9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.campo-form input {
+  height: 60px; /* Aumenta a altura */
+}
+
+.campo-form input:focus,
+.campo-form textarea:focus {
+  outline: none;
+  border-color: #25d366;
+}
+.g-recaptcha {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20px;
+  border-radius: 5px;
+  padding-bottom: 5px;
+}
+
+.btn-enviar {
+  width: 50%;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1d8a61;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}

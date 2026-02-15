@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Garante que padding e border não aumentem o tamanho do elemento */
+  -webkit-font-smoothing: antialiased; /* Melhora a renderização da fonte em Mac/iOS */
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container-transdiciplinaridade {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 70px 70px;
+  background-color: #e5e5eb;
+}
+
+.transdiciplinaridade {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 90px 120px;
+  background-color: #fff;
+}
+.transdiciplinaridade img {
+  width: 948px;
+  height: 800px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+.transdiciplinaridade h2 {
+  font-size: 1.875rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 10px;
+  font-weight: 400;
+  color: #7b7b7b;
+  text-align: left;
+  width: 100%;
+  max-width: 948px;
+}
+.transdiciplinaridade ul {
+  list-style-type: none;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 948px;
+  gap: 10px;
+}
+
+.transdiciplinaridade ul a {
+  text-decoration: none;
+  color: #23875f;
+  line-height: 1.45;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+.transdiciplinaridade ul a:hover {
+  text-decoration: none;
+  color: #7b7b7b;
+}
+.transdiciplinaridade h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 30px;
+  font-weight: 700;
+  color: #7b7b7b;
+  text-align: left;
+  width: 100%;
+  max-width: 948px;
+}
+.transdiciplinaridade p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 30px;
+  color: #7b7b7b;
+  text-align: left;
+  width: 100%;
+  max-width: 948px;
+}
+.transdiciplinaridade strong {
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 90px 120px;
+  background-color: #fff;
+  margin-top: 30px;
+  width: 1188px;
+}
+.formulario h2 {
+  font-size: 1.875rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 10px;
+  font-weight: 400;
+  color: #7b7b7b;
+  text-align: left;
+  width: 100%;
+  max-width: 948px;
+}
+.formulario p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 30px;
+  color: #7b7b7b;
+  text-align: left;
+  width: 100%;
+  max-width: 948px;
+}
+
+.formulario form {
+  width: 100%;
+  max-width: 948px;
+  display: flex;
+  flex-direction: column;
+}
+
+#mensagem {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 948px;
+  height: 250px;
+  border: 1px solid #6666663f;
+  padding: 20px;
+  background-color: #66666613;
+  margin-top: 10px;
+}
+#mensagem:hover {
+  border-style: initial;
+}
+form input {
+  padding: 10px;
+  background-color: #66666613;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid #6666663f;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-right: 80px;
+  width: 200px;
+}
+
+.form-inputs-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 948px;
+  gap: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.form-inputs-row input {
+  flex: 1;
+  min-width: 0;
+  margin: 0;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 948px;
+}
+
+.checkbox-container input {
+  width: auto;
+  margin: 0;
+}
+
+.checkbox-container label {
+  font-size: 1rem;
+  color: #7b7b7b;
+}
+.button {
+  padding: 12px;
+  background-color: #2238e0;
+  color: #fff;
+  border: none;
+ border-radius: 2px;
+
+  cursor: pointer;
+ width: 160px;
+
+}   
+.button:hover {
+  background-color: #283cd8d3;
+}

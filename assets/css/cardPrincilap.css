@@ -1,0 +1,38 @@
+.card-mask {
+  position: relative;
+  width: 100%;
+  height: 120px; /* Ajustado para a altura do card + margem */
+  overflow: hidden;
+  z-index: 90;
+  pointer-events: none;
+}
+
+#welcome-card {
+  pointer-events: auto; /* Reativa cliques dentro do card */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image:
+    linear-gradient(rgba(76, 87, 72, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/images/reseq-1.jpg);
+  background-size: cover;
+  border: 1px solid #57f77a9a;
+  border-radius: 0px 10px 150px;
+  width: 95%;
+  height: 120px;
+  box-shadow: 0px 4px 10px rgba(45, 180, 128, 0.1);
+  font-size: 30px;
+  color: #ffffff;
+  /* Estado inicial: Escondido "subido" para dentro da máscara */
+  transform: translateY(-100%);
+  opacity: 0;
+  transition:
+    transform 0.8s ease-out,
+    opacity 0.5s ease;
+}
+
+/* Quando o JS ativar, ele desce para a posição 0 dentro da máscara */
+#welcome-card.show {
+  transform: translateY(0);
+  opacity: 1;
+}

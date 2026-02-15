@@ -1,0 +1,134 @@
+.container-resultados {
+  background-color: #99999921;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  text-align: left;
+  height: auto;
+  padding: 80px;
+
+  justify-content: center;
+}
+
+.card.card-home {
+  height: auto;
+}
+.card h1 {
+  margin-bottom: 150px;
+  text-align: left;
+  color: #23875f;
+  line-height: 1.2;
+  font-size: 2.85714rem;
+  font-weight: 300;
+  font-style: inherit;
+}
+
+.tituloCard {
+  margin-bottom: 20px;
+}
+.tituloCard a {
+  text-decoration: none;
+  text-align: left;
+  color: #6e7180;
+  line-height: 1.23em;
+  font-size: 1.875rem;
+  font-weight: 400;
+  font-style: inherit;
+}
+.card-home p {
+  margin-bottom: 1em;
+  color: #6e7180;
+  font-size: 1.1875rem;
+  line-height: 1.66667em;
+  font-weight: 400;
+  font-style: inherit;
+}
+.leia-mais {
+  text-decoration: none;
+  color: #23875f;
+  font-size: 1.1875rem;
+  font-weight: 400;
+  font-style: inherit;
+}
+.card h2 a {
+  text-decoration: none;
+  line-height: 1.23em;
+  color: #6e7180;
+  font-size: 2rem;
+  font-weight: 800;
+  font-style: inherit;
+}
+.card p {
+  margin-top: 1.1rem;
+  margin-bottom: 1.5rem;
+  color: #6e7180;
+  font-size: 1.1875rem;
+  line-height: 1.66667em;
+  font-weight: 400;
+  font-style: inherit;
+}
+.card-destaque {
+  height: auto;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.card-destaque .card-img-link {
+  flex-shrink: 0;
+}
+
+.card-destaque img {
+  width: 493px;
+  height: 416px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+}
+.card-info h2{
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 2rem;
+}
+.card-info span{
+  color: #23875f;
+  font-weight: 400;
+  font-size: 1.1875rem;
+}
+.card-meta {    
+  margin-bottom: 15px;
+  color: #6e7180;
+  font-size: 0.9rem;
+}
+
+.card-meta a {
+  color: #23875f;
+  text-decoration: none;
+    font-weight: 400;
+  font-size: 1.1875rem;
+}
+.fim {
+display: inline-block;
+padding: 0 1.5em;
+line-height: 3em;
+font-weight: 400;
+font-size: 1rem;
+border: 2px solid #0000004d;  
+margin-top: 40px;
+}

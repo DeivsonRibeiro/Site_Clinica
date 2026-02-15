@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/cardPrincilap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/contato.css">   
+    <link rel="stylesheet" href="assets/css/footer.css" />
+    <title>Fale Conosco</title>
+</head>
+
+<body>
+    <div id="menu"></div>
+    <div class="card-mask">
+        <div id="welcome-card" class="card-hidden">
+            <h2 class="textoCard">Fale Conosco</h2>
+            <div class="card-content">
+            </div>
+        </div>
+    </div>
+    
+        <section class="contato-whatsapp">
+            <h2>Fale com a Ressignificar</h2>
+            <a href="#" target="_blank" aria-label="Contato via WhatsApp">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+        </section>
+    <main class="contato-container">
+    
+        <address class="contato-box contato-endereco">
+            <i class="fa-solid fa-location-dot" style="color: #0c4735;"></i>
+            <h2>Nosso Endereço</h2>
+            <p>Rua Moacir Wanderley, 185, sala 106</p>
+            <p>Empresarial Jardins, Jardins</p>
+            <p>Aracaju/SE</p>
+        </address>
+    
+        <section class="contato-box contato-telefone">
+            <i class="fa-solid fa-phone" style="color: #166346;"></i>
+            <h2>Telefone</h2>
+            <p><i class="fa-solid fa-phone"></i> (79) 3085-8505</p>
+            <p><i class="fa-brands fa-whatsapp"></i> (79) 98117-0735</p>
+        </section>
+    
+        <section class="contato-box contato-email">
+            <i class="fa-solid fa-envelope" style="color: #1e5b2c;"></i>
+            <h2>E-mail</h2>
+            <p><i class="fa-solid fa-envelope"></i> ressignificar.cpi@gmail.com</p>
+        </section>
+    
+    </main>
+
+        <!-- MAPA -->
+        <section class="contato-mapa">
+            <h2>Localização</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3147.11301687241!2d-37.05628392603551!3d-10.939620622273939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71ab37de156ef77%3A0xb1ecfe681ec7152c!2sJardins%2C%20Aracaju%20-%20SE!5e0!3m2!1spt-BR!2sbr!4v1769219074203"
+                width="100%" height="450" style="border:0;" allowfullscreen loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </section>
+    
+        <!-- FORMULÁRIO -->
+        <section class="contato-formulario">
+            <h2>Formulário de Contato</h2>
+            <p>A sua opinião é muito importante para nós. Gostaríamos de ouvir você.</p>
+    
+            <form action="" method="post">
+    
+                <div class="campo-form">
+                
+                    <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+                </div>
+    
+                <div class="campo-form">
+                
+                    <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
+                </div>
+    
+                <div class="campo-form">
+                    
+                    <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem" required></textarea>
+                </div>
+    
+                <div class="g-recaptcha" data-sitekey="6LfXg1QsAAAAAH8hNZ9bj9THpQ9fBztnP1_uGgq1"></div>
+    
+                <button class="btn-enviar" type="submit">Enviar</button>
+            </form>
+        </section>
+    
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+    
+                <div class="footer-logo">
+                    <img src="assets/images/logo-transparente-min-300x119.png" alt="Logo da Clínica Ressignificar" />
+                </div>
+    
+                <div class="footer-info">
+                    <h3>Informações</h3>
+                    <div class="info-item">
+                        <p>Rua Moacir Wanderley, 185, sala 106, Empresarial Jardins, Aracaju/SE</p>
+                    </div>
+                    <div class="info-item">
+                        <p><strong>(79) 3085-8505</strong> | <strong>(79) 98117-0735</strong></p>
+                    </div>
+                </div>
+    
+            </div>
+    
+            <div class="footer-bottom">
+                <p class="copyright">
+                    © 2026 Ressignificar — Todos os direitos reservados
+                </p>
+            </div>
+        </div>
+    </footer>
+
+           
+        
+
+    
+</body>
+<script src="assets/js/menu.js"></script>
+<script src="assets/js/cardPricipal.js"></script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+</html>
