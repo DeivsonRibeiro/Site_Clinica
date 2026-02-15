@@ -176,3 +176,28 @@ a {
   font-size: 1rem;
   cursor: pointer;
 }
+
+@media (max-width: 768px) {
+  .contato-container {
+    grid-template-columns: 1fr;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .campo-form {
+    width: 100%;
+  }
+
+  .g-recaptcha {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .btn-enviar {
+    width: 100%;
+  }
+
+  .contato-formulario form {
+    padding: 20px;
+  }
+}

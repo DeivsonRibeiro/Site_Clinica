@@ -19,7 +19,7 @@
   flex-direction: column;
   align-items: flex-start; /* Alinha tudo à esquerda */
   justify-content: flex-start; /* Alinha tudo ao topo */
- 
+
   padding: 60px 60px 60px 120px; /* Reduzi um pouco o padding para ficar "mais a esquerda e topo" mas mantendo respiro */
   background-color: #fffcfc;
 
@@ -51,7 +51,6 @@
   width: 100%;
   max-width: 350px; /* Diminuindo a largura do formulário/input */
   margin-top: 10px;
- 
 }
 
 .palestras input {
@@ -85,3 +84,25 @@
   background-color: #1a6647;
 }
 /* teste */
+
+@media (max-width: 768px) {
+  .palestras {
+    padding: 30px;
+    align-items: center;
+  }
+  .palestras h2 {
+    margin-bottom: 40px;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .palestras form {
+    flex-direction: column;
+    align-items: center;
+  }
+  .palestras input {
+    width: 100%;
+  }
+  .palestras button {
+    width: 100%;
+  }
+}

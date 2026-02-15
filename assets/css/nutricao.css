@@ -1,10 +1,10 @@
-.container-nutricao{
-      background-color: #99999921;
-  padding: 50px; 
+.container-nutricao {
+  background-color: #99999921;
+  padding: 50px;
   display: flex;
   justify-content: center;
 }
-.nutricao{
+.nutricao {
   padding: 120px 100px;
   background-color: #ffffff;
   width: 100%;
@@ -14,19 +14,28 @@
   margin: 20px auto;
   text-align: center;
 }
-    .nutricao h2{
-        color: #7b7b7b;
-        font-size: 1.875rem;
-        font-weight: bold;
-        margin-bottom: 20px;
-    }   
-    .nutricao p{
-        color: #7b7b7b;
-        font-size: 1.25rem;
-        font-weight: 400;
-        margin-bottom: 20px;
-    }   
-    .nutricao{
-      text-align: left;
-   
-    }       
+.nutricao h2 {
+  color: #7b7b7b;
+  font-size: 1.875rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.nutricao p {
+  color: #7b7b7b;
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.nutricao {
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .container-nutricao {
+    padding: 20px;
+  }
+  .nutricao {
+    padding: 30px;
+    width: 100%;
+  }
+}

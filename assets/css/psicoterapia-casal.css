@@ -1,13 +1,11 @@
-.container-psicoterapia-casal{
+.container-psicoterapia-casal {
   background-color: #99999921;
-  padding: 50px; 
+  padding: 50px;
   display: flex;
   justify-content: center;
 }
 
-
-
-.psicoterapia-casal{
+.psicoterapia-casal {
   padding: 120px;
   background-color: #ffffff;
   width: 100%;
@@ -16,26 +14,32 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 20px auto;
   text-align: center;
-
 }
-   .psicoterapia-casal h2{
-        color: #7b7b7b;
-        font-size: 1.875rem;
-        font-weight: bold;
-        margin-bottom: 20px;
-    }   
-    .psicoterapia-casal p{
-        color: #7b7b7b;
-        font-size: 1.25rem;
-        font-weight: 400;
-        margin-bottom: 20px;
-        
-    }
+.psicoterapia-casal h2 {
+  color: #7b7b7b;
+  font-size: 1.875rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.psicoterapia-casal p {
+  color: #7b7b7b;
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
 
 .psicoterapia-casal {
-    text-align: left;
-   
-   
+  text-align: left;
 }
-    
+
 /* teste */
+
+@media (max-width: 768px) {
+  .container-psicoterapia-casal {
+    padding: 20px;
+  }
+  .psicoterapia-casal {
+    padding: 30px;
+    width: 100%;
+  }
+}

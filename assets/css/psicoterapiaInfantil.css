@@ -1,6 +1,6 @@
-.container-psicoterapia-infantil{
+.container-psicoterapia-infantil {
   background-color: #99999921;
-  padding: 50px; 
+  padding: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,9 +8,7 @@
   gap: 20px;
 }
 
-
-
-.psicoterapia-infantil{
+.psicoterapia-infantil {
   padding: 120px;
   background-color: #ffffff;
   width: 100%;
@@ -18,26 +16,32 @@
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   text-align: center;
-
 }
-   .psicoterapia-infantil h2{
-        color: #7b7b7b;
-        font-size: 1.875rem;
-        font-weight: bold;
-        margin-bottom: 20px;
-    }   
-    .psicoterapia-infantil p{
-        color: #7b7b7b;
-        font-size: 1.25rem;
-        font-weight: 400;
-        line-height: 1.6;
-        margin-bottom: 20px;
-        text-align: left;
-        
-    }
+.psicoterapia-infantil h2 {
+  color: #7b7b7b;
+  font-size: 1.875rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.psicoterapia-infantil p {
+  color: #7b7b7b;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  text-align: left;
+}
 
 .psicoterapia-infantil {
-    text-align: left;
-   
-   
-}       
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .container-psicoterapia-infantil {
+    padding: 20px;
+  }
+  .psicoterapia-infantil {
+    padding: 30px;
+    width: 100%;
+  }
+}

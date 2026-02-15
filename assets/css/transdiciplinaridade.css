@@ -193,12 +193,55 @@ form input {
   background-color: #2238e0;
   color: #fff;
   border: none;
- border-radius: 2px;
+  border-radius: 2px;
 
   cursor: pointer;
- width: 160px;
-
-}   
+  width: 160px;
+}
 .button:hover {
   background-color: #283cd8d3;
+}
+
+@media (max-width: 768px) {
+  .container-transdiciplinaridade {
+    padding: 20px;
+  }
+  .transdiciplinaridade {
+    padding: 30px;
+    width: 100%;
+  }
+  .transdiciplinaridade img,
+  .transdiciplinaridade h2,
+  .transdiciplinaridade h3,
+  .transdiciplinaridade p,
+  .transdiciplinaridade ul {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  .transdiciplinaridade ul {
+    flex-direction: column;
+  }
+  .formulario {
+    width: 100%;
+    padding: 30px;
+  }
+  .formulario h2,
+  .formulario p,
+  .formulario form,
+  #mensagem,
+  .form-inputs-row {
+    width: 100%;
+    max-width: 100%;
+  }
+  .form-inputs-row {
+    flex-direction: column;
+  }
+  form input {
+    width: 100%;
+    margin-right: 0;
+  }
+  .checkbox-container {
+    flex-wrap: wrap;
+  }
 }
